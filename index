@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .index {
+            background-repeat: no-repeat;
+            background-size: cover; 
+            position: absolute;
+        }
+        .index1 {
+            position: relative;
+        }
+        .abdullah {
+            margin-top: 10%;
+            height: 300px;
+            background-color: aqua;
+            box-shadow: 10px 10px 20px gray;
+        }
+    </style>
+</head>
+<body>
+
+<div style="width: 90%; ">
+    <div class="index">
+        <img src="./download.jpeg" alt="">
+    </div>
+    <div class="index1">
+        <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Deleniti quod ut aut incidunt amet quidem nobis doloremque
+            officia, iure eum expedita vero magnam voluptatibus
+            assumenda rerum eveniet nisi iusto tempora!</h1>
+    </div>
+</div>
+
+<div class="abdullah">
+    <form action="">
+        <input type="text" placeholder="Enter a name" name="name" id="name">
+        <input type="submit">
+    </form>
+</div>
+
+</body>
+</html>
